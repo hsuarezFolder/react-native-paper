@@ -200,6 +200,7 @@ class ListItem extends React.Component<Props> {
             <Text
               ellipsizeMode={titleEllipsizeMode}
               numberOfLines={titleNumberOfLines}
+              allowFontScaling={false}
               style={[styles.title, { color: titleColor }, titleStyle]}
             >
               {title}
