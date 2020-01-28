@@ -220,6 +220,7 @@ class ListAccordion extends React.Component<Props, State> {
                   <View style={[styles.item, styles.content]}>
                     <Text
                       numberOfLines={titleNumberOfLines}
+                      allowFontScaling={false}
                       style={[
                         styles.title,
                         {
@@ -232,6 +233,7 @@ class ListAccordion extends React.Component<Props, State> {
                     </Text>
                     {description && (
                       <Text
+                        allowFontScaling={false}
                         numberOfLines={descriptionNumberOfLines}
                         style={[
                           styles.description,
