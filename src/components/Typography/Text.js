@@ -35,6 +35,7 @@ class Text extends React.Component<Props> {
     return (
       <NativeText
         {...rest}
+        allowFontScaling={false}    
         ref={c => {
           this._root = c;
         }}
