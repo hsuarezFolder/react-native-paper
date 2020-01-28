@@ -264,6 +264,7 @@ class Button extends React.Component<Props, State> {
               />
             ) : null}
             <Text
+              allowFontScaling={false}    
               numberOfLines={1}
               style={[
                 styles.label,
