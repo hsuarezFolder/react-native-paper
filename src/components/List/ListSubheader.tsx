@@ -47,6 +47,7 @@ class ListSubheader extends React.Component<Props> {
 
     return (
       <Text
+        allowFontScaling={false}
         numberOfLines={1}
         {...rest}
         style={[styles.container, { color: textColor, ...font }, style]}
