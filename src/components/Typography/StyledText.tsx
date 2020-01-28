@@ -25,6 +25,7 @@ class StyledText extends React.Component<Props> {
 
     return (
       <Text
+        allowFontScaling={false}
         {...rest}
         style={[
           { color: textColor, ...font, textAlign: 'left', writingDirection },
