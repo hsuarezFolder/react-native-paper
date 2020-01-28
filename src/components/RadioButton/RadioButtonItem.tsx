@@ -76,7 +76,7 @@ class RadioButtonItem extends React.Component<Props> {
               }
             >
               <View style={[styles.container, style]} pointerEvents="none">
-                <Text>{label}</Text>
+                <Text allowFontScaling={false} >{label}</Text>
                 <RadioButton value={value} status={status}></RadioButton>
               </View>
             </TouchableRipple>
