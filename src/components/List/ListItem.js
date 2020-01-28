@@ -99,6 +99,7 @@ class ListItem extends React.Component<Props> {
     return typeof description === 'string' ? (
       <Text
         numberOfLines={2}
+        allowFontScaling={false}    
         ellipsizeMode={descriptionEllipsizeMode}
         style={[
           styles.description,
@@ -151,6 +152,7 @@ class ListItem extends React.Component<Props> {
           <View style={[styles.item, styles.content]} pointerEvents="none">
             <Text
               ellipsizeMode={titleEllipsizeMode}
+              allowFontScaling={false}    
               numberOfLines={1}
               style={[styles.title, { color: titleColor }, titleStyle]}
             >
