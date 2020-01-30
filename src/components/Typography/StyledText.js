@@ -27,6 +27,7 @@ class StyledText extends React.Component<Props> {
     return (
       <Text
         {...rest}
+        maxFontSizeMultiplier={1}
         style={[
           { color: textColor, fontFamily, textAlign: 'left', writingDirection },
           style,
