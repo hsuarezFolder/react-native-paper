@@ -99,7 +99,7 @@ class ListItem extends React.Component<Props> {
     return typeof description === 'string' ? (
       <Text
         numberOfLines={2}
-        allowFontScaling={false}    
+        maxFontSizeMultiplier={1}
         ellipsizeMode={descriptionEllipsizeMode}
         style={[
           styles.description,
